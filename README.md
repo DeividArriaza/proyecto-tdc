@@ -1,5 +1,7 @@
 # Simulador de máquinas de Turing
 
+Video: https://youtu.be/v4VZcMqIrI0
+
 Proyecto 3 de Teoría de la Computación, CC2019, sección 30, Universidad del Valle de Guatemala. Simula máquinas deterministas de una cinta y un cabezal, extensible hacia ambos lados, definidas en YAML mediante cuádruplas.
 
 [Informe PDF](output/Informe_Proyecto_3.pdf) · [Informe editable](output/Informe_Proyecto_3.docx) · [Video MP4](video/presentacion.mp4) · [Subtítulos](video/subtitulos.srt)
