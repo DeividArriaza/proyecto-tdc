@@ -1,5 +1,8 @@
 {
-  "integrantes": [],
+  "integrantes": [
+    {"nombre": "David López", "carne": "24730"},
+    {"nombre": "Carlos López", "carne": "24531"}
+  ],
   "youtube_url": null,
   "repositorio": "https://github.com/DeividArriaza/proyecto-tdc",
   "fecha": "20 de noviembre de 2026"

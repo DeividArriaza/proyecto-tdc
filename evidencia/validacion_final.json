@@ -28,12 +28,12 @@
   },
   "archivos": {
     "output/Informe_Proyecto_3.docx": {
-      "bytes": 189548,
-      "sha256": "4ea325b3625bd3e74d0f3fd9266768e936f65e43bdbce73f2a3d1499ec129b44"
+      "bytes": 189604,
+      "sha256": "0b9ae79498c3b6cdd14768d0a0fadd2a2eed93ae59b86a867798cb52c41a73f1"
     },
     "output/Informe_Proyecto_3.pdf": {
-      "bytes": 620901,
-      "sha256": "5175c1b669ac16ee909a4e7f95df3fd41d3a8b33a9ba9ad51dbb17d77ef0217f"
+      "bytes": 621077,
+      "sha256": "2591964e9e86893913f56073478f2436a74945b5af44b565eb6ec7139bdd047c"
     },
     "video/presentacion.mp4": {
       "bytes": 10358004,
@@ -45,7 +45,6 @@
     }
   },
   "pendientes_externos": [
-    "integrantes y carnés",
     "disponibilidad y registro de ejemplos",
     "participación real de integrantes en video",
     "publicación no listada de YouTube y enlace",

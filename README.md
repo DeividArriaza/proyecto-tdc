@@ -4,6 +4,8 @@ Proyecto 3 de Teoría de la Computación, CC2019, sección 30, Universidad del V
 
 [Informe PDF](output/Informe_Proyecto_3.pdf) · [Informe editable](output/Informe_Proyecto_3.docx) · [Video MP4](video/presentacion.mp4) · [Subtítulos](video/subtitulos.srt)
 
+Integrantes: David López (24730) y Carlos López (24531).
+
 ## Instalación
 
 Requiere Python 3.11 o superior con Tkinter. La aplicación solo depende de PyYAML. Desde la carpeta del repositorio:

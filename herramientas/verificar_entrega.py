@@ -47,7 +47,7 @@ def main():
         'video': {'duracion_segundos': segundos, 'resolucion': '1920x1080', 'video': 'H.264', 'audio': 'AAC', 'volumen_medio_db': float(media[1]), 'decodificacion_completa': 'correcta', 'narracion': 'sintética es-GT-AndresNeural'},
         'trazas': trazas,
         'archivos': {f: {'bytes': (RAIZ / f).stat().st_size, 'sha256': hashlib.sha256((RAIZ / f).read_bytes()).hexdigest()} for f in finales},
-        'pendientes_externos': ['integrantes y carnés', 'disponibilidad y registro de ejemplos', 'participación real de integrantes en video', 'publicación no listada de YouTube y enlace', 'registro del grupo en Canvas'],
+        'pendientes_externos': ['disponibilidad y registro de ejemplos', 'participación real de integrantes en video', 'publicación no listada de YouTube y enlace', 'registro del grupo en Canvas'],
     }
     (RAIZ / 'evidencia/validacion_final.json').write_text(json.dumps(manifiesto, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     print(json.dumps(manifiesto, ensure_ascii=False, indent=2))

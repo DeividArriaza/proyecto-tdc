@@ -7,15 +7,18 @@ Implementados y verificados:
 - Video demostrativo narrado en español con subtítulos y código explicado.
 
 Datos y acciones externas necesarios para cerrar la entrega:
-1. Confirmar nombres y carnés de quienes forman este grupo en entrega.json.
-2. Registrar los algoritmos en la hoja de SharePoint del curso, después de
+Integrantes confirmados:
+- David López, carné 24730.
+- Carlos López, carné 24531.
+
+1. Registrar los algoritmos en la hoja de SharePoint del curso, después de
    confirmar que otro grupo no los haya elegido. El acceso automático a esa
    hoja no permitió verificar su disponibilidad.
-3. Incorporar la participación real de todos los integrantes al video.
+2. Incorporar la participación real de todos los integrantes al video.
    La narración sintética incluida no acredita esa participación.
-4. Publicar el video como no listado en YouTube, verificar su enlace y
+3. Publicar el video como no listado en YouTube, verificar su enlace y
    actualizar youtube_url en entrega.json y el informe.
-5. Verificar el registro del grupo en Canvas y que el historial de GitHub
+4. Verificar el registro del grupo en Canvas y que el historial de GitHub
    refleje contribuciones reales de cada integrante. No se crean autores o
    participaciones ficticias.
 
