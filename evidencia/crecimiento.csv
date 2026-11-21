@@ -1,0 +1,17 @@
+maquina,n,pasos,descripciones,celdas_en_traza,amplitud_final,resultado
+complemento_adn,0,0,1,1,1,
+complemento_adn,1,2,3,4,2,T
+complemento_adn,2,4,5,11,3,TT
+complemento_adn,4,8,9,37,5,TTTT
+complemento_adn,8,16,17,137,9,TTTTTTTT
+complemento_adn,16,32,33,529,17,TTTTTTTTTTTTTTTT
+complemento_adn,32,64,65,2081,33,TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+complemento_adn,64,128,129,8257,65,TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+duplicacion_ternaria,0,4,5,8,2,#
+duplicacion_ternaria,1,17,18,59,4,a#a
+duplicacion_ternaria,2,36,37,181,6,aa#aa
+duplicacion_ternaria,4,92,93,750,10,aaaa#aaaa
+duplicacion_ternaria,8,276,277,3972,18,aaaaaaaa#aaaaaaaa
+duplicacion_ternaria,16,932,933,25024,34,aaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaa
+duplicacion_ternaria,32,3396,3397,175736,66,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+duplicacion_ternaria,64,12932,12933,1313000,130,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

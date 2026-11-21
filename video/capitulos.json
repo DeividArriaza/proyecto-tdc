@@ -1,0 +1,62 @@
+[
+  {
+    "capitulo": 1,
+    "titulo": "Simulador de máquinas de Turing",
+    "inicio": 0.0,
+    "duracion": 28.8
+  },
+  {
+    "capitulo": 2,
+    "titulo": "Definición de una máquina",
+    "inicio": 28.8,
+    "duracion": 34.54
+  },
+  {
+    "capitulo": 3,
+    "titulo": "Cómo usar el simulador",
+    "inicio": 63.34,
+    "duracion": 34.08
+  },
+  {
+    "capitulo": 4,
+    "titulo": "Ejemplo 1 · Complemento de ADN",
+    "inicio": 97.42,
+    "duracion": 33.79
+  },
+  {
+    "capitulo": 5,
+    "titulo": "Ejemplo 2 · Duplicación ternaria",
+    "inicio": 131.21,
+    "duracion": 38.81
+  },
+  {
+    "capitulo": 6,
+    "titulo": "Cinta bilateral y cancelación",
+    "inicio": 170.02,
+    "duracion": 32.3
+  },
+  {
+    "capitulo": 7,
+    "titulo": "Organización del código",
+    "inicio": 202.32,
+    "duracion": 34.34
+  },
+  {
+    "capitulo": 8,
+    "titulo": "Validación y pruebas reproducibles",
+    "inicio": 236.66,
+    "duracion": 38.28
+  },
+  {
+    "capitulo": 9,
+    "titulo": "Complejidad del motor y de la traza",
+    "inicio": 274.94,
+    "duracion": 35.14
+  },
+  {
+    "capitulo": 10,
+    "titulo": "Resultados y entrega",
+    "inicio": 310.08,
+    "duracion": 32.589999999999996
+  }
+]

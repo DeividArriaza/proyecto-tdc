@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+tmp/
+*.log
+*.wav
+video/segmentos/
+output/qa/
+output/qa_empaquetado/
+video/qa/

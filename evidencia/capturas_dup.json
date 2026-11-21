@@ -1,0 +1,170 @@
+[
+  {
+    "captura": "03_dup_paso_00",
+    "tipo": "resultado",
+    "estado": "qi",
+    "pasos": 0,
+    "cabezal": 0,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "a",
+      "b",
+      "c"
+    ],
+    "texto": "abc"
+  },
+  {
+    "captura": "03_dup_paso_02",
+    "tipo": "resultado",
+    "estado": "qi",
+    "pasos": 2,
+    "cabezal": 2,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "a",
+      "b",
+      "c"
+    ],
+    "texto": "abc"
+  },
+  {
+    "captura": "03_dup_paso_05",
+    "tipo": "resultado",
+    "estado": "qb",
+    "pasos": 5,
+    "cabezal": 2,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "a",
+      "b",
+      "c",
+      "#"
+    ],
+    "texto": "abc#"
+  },
+  {
+    "captura": "03_dup_paso_08",
+    "tipo": "resultado",
+    "estado": "qb",
+    "pasos": 8,
+    "cabezal": -1,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "a",
+      "b",
+      "c",
+      "#"
+    ],
+    "texto": "abc#"
+  },
+  {
+    "captura": "03_dup_paso_11",
+    "tipo": "resultado",
+    "estado": "qa",
+    "pasos": 11,
+    "cabezal": 1,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "X",
+      "b",
+      "c",
+      "#"
+    ],
+    "texto": "Xbc#"
+  },
+  {
+    "captura": "03_dup_paso_17",
+    "tipo": "resultado",
+    "estado": "qr",
+    "pasos": 17,
+    "cabezal": 2,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "X",
+      "b",
+      "c",
+      "#",
+      "a"
+    ],
+    "texto": "Xbc#a"
+  },
+  {
+    "captura": "03_dup_paso_25",
+    "tipo": "resultado",
+    "estado": "qc",
+    "pasos": 25,
+    "cabezal": 3,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "X",
+      "Y",
+      "c",
+      "#",
+      "a"
+    ],
+    "texto": "XYc#a"
+  },
+  {
+    "captura": "03_dup_paso_37",
+    "tipo": "resultado",
+    "estado": "qf",
+    "pasos": 37,
+    "cabezal": 2,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "X",
+      "Y",
+      "c",
+      "#",
+      "a",
+      "b"
+    ],
+    "texto": "XYc#ab"
+  },
+  {
+    "captura": "03_dup_paso_49",
+    "tipo": "resultado",
+    "estado": "qr",
+    "pasos": 49,
+    "cabezal": 0,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "X",
+      "Y",
+      "Z",
+      "#",
+      "a",
+      "b",
+      "c"
+    ],
+    "texto": "XYZ#abc"
+  },
+  {
+    "captura": "03_dup_paso_61",
+    "tipo": "resultado",
+    "estado": "qlim",
+    "pasos": 61,
+    "cabezal": -1,
+    "cancelada": false,
+    "detenida": true,
+    "simbolos": [
+      "a",
+      "b",
+      "c",
+      "#",
+      "a",
+      "b",
+      "c"
+    ],
+    "texto": "abc#abc"
+  }
+]

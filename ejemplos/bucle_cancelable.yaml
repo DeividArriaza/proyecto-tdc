@@ -1,0 +1,8 @@
+# Ejemplo auxiliar para demostrar cancelación; no sustituye los dos ejemplos.
+mt:
+  nombre: Desplazamiento infinito hacia la izquierda
+  estados: [q]
+  alfabeto: [B]
+  estado_inicial: q
+  transiciones:
+    - q B L q

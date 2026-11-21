@@ -1,0 +1,146 @@
+[
+  {
+    "maquina": "complemento_adn",
+    "n": 0,
+    "pasos": 0,
+    "descripciones": 1,
+    "celdas_en_traza": 1,
+    "amplitud_final": 1,
+    "resultado": ""
+  },
+  {
+    "maquina": "complemento_adn",
+    "n": 1,
+    "pasos": 2,
+    "descripciones": 3,
+    "celdas_en_traza": 4,
+    "amplitud_final": 2,
+    "resultado": "T"
+  },
+  {
+    "maquina": "complemento_adn",
+    "n": 2,
+    "pasos": 4,
+    "descripciones": 5,
+    "celdas_en_traza": 11,
+    "amplitud_final": 3,
+    "resultado": "TT"
+  },
+  {
+    "maquina": "complemento_adn",
+    "n": 4,
+    "pasos": 8,
+    "descripciones": 9,
+    "celdas_en_traza": 37,
+    "amplitud_final": 5,
+    "resultado": "TTTT"
+  },
+  {
+    "maquina": "complemento_adn",
+    "n": 8,
+    "pasos": 16,
+    "descripciones": 17,
+    "celdas_en_traza": 137,
+    "amplitud_final": 9,
+    "resultado": "TTTTTTTT"
+  },
+  {
+    "maquina": "complemento_adn",
+    "n": 16,
+    "pasos": 32,
+    "descripciones": 33,
+    "celdas_en_traza": 529,
+    "amplitud_final": 17,
+    "resultado": "TTTTTTTTTTTTTTTT"
+  },
+  {
+    "maquina": "complemento_adn",
+    "n": 32,
+    "pasos": 64,
+    "descripciones": 65,
+    "celdas_en_traza": 2081,
+    "amplitud_final": 33,
+    "resultado": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+  },
+  {
+    "maquina": "complemento_adn",
+    "n": 64,
+    "pasos": 128,
+    "descripciones": 129,
+    "celdas_en_traza": 8257,
+    "amplitud_final": 65,
+    "resultado": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 0,
+    "pasos": 4,
+    "descripciones": 5,
+    "celdas_en_traza": 8,
+    "amplitud_final": 2,
+    "resultado": "#"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 1,
+    "pasos": 17,
+    "descripciones": 18,
+    "celdas_en_traza": 59,
+    "amplitud_final": 4,
+    "resultado": "a#a"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 2,
+    "pasos": 36,
+    "descripciones": 37,
+    "celdas_en_traza": 181,
+    "amplitud_final": 6,
+    "resultado": "aa#aa"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 4,
+    "pasos": 92,
+    "descripciones": 93,
+    "celdas_en_traza": 750,
+    "amplitud_final": 10,
+    "resultado": "aaaa#aaaa"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 8,
+    "pasos": 276,
+    "descripciones": 277,
+    "celdas_en_traza": 3972,
+    "amplitud_final": 18,
+    "resultado": "aaaaaaaa#aaaaaaaa"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 16,
+    "pasos": 932,
+    "descripciones": 933,
+    "celdas_en_traza": 25024,
+    "amplitud_final": 34,
+    "resultado": "aaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaa"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 32,
+    "pasos": 3396,
+    "descripciones": 3397,
+    "celdas_en_traza": 175736,
+    "amplitud_final": 66,
+    "resultado": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  {
+    "maquina": "duplicacion_ternaria",
+    "n": 64,
+    "pasos": 12932,
+    "descripciones": 12933,
+    "celdas_en_traza": 1313000,
+    "amplitud_final": 130,
+    "resultado": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  }
+]

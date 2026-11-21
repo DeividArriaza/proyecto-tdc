@@ -1,0 +1,10 @@
+{"tipo": "di", "paso": 0, "estado": "q0", "cabezal": 0, "izquierda": 0, "celdas": ["A", "C", "G", "T"]}
+{"tipo": "di", "paso": 1, "estado": "qm", "cabezal": 0, "izquierda": 0, "celdas": ["T", "C", "G", "T"]}
+{"tipo": "di", "paso": 2, "estado": "q0", "cabezal": 1, "izquierda": 0, "celdas": ["T", "C", "G", "T"]}
+{"tipo": "di", "paso": 3, "estado": "qm", "cabezal": 1, "izquierda": 0, "celdas": ["T", "G", "G", "T"]}
+{"tipo": "di", "paso": 4, "estado": "q0", "cabezal": 2, "izquierda": 0, "celdas": ["T", "G", "G", "T"]}
+{"tipo": "di", "paso": 5, "estado": "qm", "cabezal": 2, "izquierda": 0, "celdas": ["T", "G", "C", "T"]}
+{"tipo": "di", "paso": 6, "estado": "q0", "cabezal": 3, "izquierda": 0, "celdas": ["T", "G", "C", "T"]}
+{"tipo": "di", "paso": 7, "estado": "qm", "cabezal": 3, "izquierda": 0, "celdas": ["T", "G", "C", "A"]}
+{"tipo": "di", "paso": 8, "estado": "q0", "cabezal": 4, "izquierda": 0, "celdas": ["T", "G", "C", "A", "B"]}
+{"tipo": "resultado", "estado": "q0", "pasos": 8, "cabezal": 4, "cancelada": false, "detenida": true, "simbolos": ["T", "G", "C", "A"], "texto": "TGCA"}

@@ -1,0 +1,18 @@
+# Dominio del algoritmo: palabras sobre {A,C,G,T}, incluida la vacía.
+# Cada escritura ocupa un paso y cada movimiento otro paso.
+mt:
+  nombre: Complemento de una secuencia de ADN
+  descripcion: Sustituye A por T, T por A, C por G y G por C.
+  estados: [q0, qm]
+  alfabeto: [A, C, G, T, B]
+  blanco: B
+  estado_inicial: q0
+  transiciones:
+    - q0 A T qm
+    - q0 T A qm
+    - q0 C G qm
+    - q0 G C qm
+    - qm A R q0
+    - qm T R q0
+    - qm C R q0
+    - qm G R q0

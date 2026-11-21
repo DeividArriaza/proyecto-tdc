@@ -1,0 +1,29 @@
+Simulador de máquinas de Turing
+Este video presenta el simulador de máquinas de Turing del proyecto tres de Teoría de la Computación. El programa recibe una definición en YAML y una entrada, ejecuta sus cuádruplas y conserva todas las descripciones instantáneas. La cinta se extiende hacia la izquierda y hacia la derecha. Mostraremos dos algoritmos, la cancelación de un bucle y la organización del código. Las imágenes de ejecución corresponden a la aplicación real. La narración de esta versión es sintética.
+
+Definición de una máquina
+El archivo YAML declara los estados, el alfabeto, el estado inicial y las transiciones. El blanco de nuestros ejemplos es la letra B. Cada cuádrupla contiene el estado actual, el símbolo leído, la operación y el estado siguiente. La letra R mueve a la derecha y L a la izquierda. Una escritura cambia la celda sin mover el cabezal. Por eso escribir y avanzar consume dos pasos. El prefijo W seguido de dos puntos permite escribir símbolos reservados, como la propia letra R. La máquina se detiene cuando no hay una transición aplicable.
+
+Cómo usar el simulador
+Para utilizar la interfaz abrimos un archivo YAML o seleccionamos un ejemplo. Escribimos la entrada y pulsamos preparar. Esto inicializa la cinta y registra la configuración cero. Podemos avanzar con un paso o ejecutar continuamente. La celda coloreada señala el cabezal y debajo aparecen los índices. La ventana muestra las últimas doscientas configuraciones, mientras el archivo en disco conserva todas las descripciones completas. El botón exportar traza permite guardarlas como JSONL. Para iniciar otra entrada, se vuelve a pulsar preparar.
+
+Ejemplo 1 · Complemento de ADN
+La primera máquina calcula el complemento de una secuencia de ADN. La entrada es A, C, G, T. En el primer paso se escribe T sobre A y el cabezal permanece en cero. En el siguiente paso avanza a la derecha. El mismo proceso transforma C en G, G en C y T en A. Al llegar al blanco derecho, no existe otra regla. La ejecución termina en ocho transiciones y muestra la salida T, G, C, A. También se acepta la entrada vacía: no se aplica ninguna transición y el resultado permanece vacío.
+
+Ejemplo 2 · Duplicación ternaria
+La segunda máquina duplica una palabra sobre a, b y c. Primero recorre la entrada y coloca un separador al final. Después marca el siguiente símbolo original con X, Y o Z. El estado recuerda qué símbolo debe copiar, llega hasta el blanco derecho y lo escribe. Luego regresa al principio para repetir el recorrido. Aquí se muestran estados seleccionados de la ejecución; la traza conserva todos los pasos intermedios. Cuando todos los símbolos están copiados, la máquina restaura las marcas. La entrada a, b, c produce a, b, c, separador, a, b, c, en sesenta y un pasos.
+
+Cinta bilateral y cancelación
+El ejemplo auxiliar tiene una sola regla: sobre blanco, mueve a la izquierda y permanece en el mismo estado. La máquina visita índices negativos y nunca encuentra una condición de parada. El simulador no impone un máximo de pasos. Al cancelar después de dieciséis transiciones, el cabezal queda en menos dieciséis. El programa informa que la ejecución fue cancelada y muestra contenido parcial. Esto se distingue de una parada normal. La opción de pausa, en cambio, permite continuar desde la configuración actual.
+
+Organización del código
+El repositorio separa cuatro responsabilidades. Modelo lee YAML y valida la definición antes de ejecutar. Motor contiene la simulación: estado, cabezal, contador y cinta. La cinta es un diccionario con índices enteros, donde solo se almacenan símbolos no blancos. Interfaz implementa los controles de escritorio y el registro en disco. Main permite ejecutar desde la terminal o abrir la interfaz gráfica. Las máquinas están en ejemplos y las pruebas en tests. Esta separación permite verificar el motor sin depender de una ventana.
+
+Validación y pruebas reproducibles
+Las treinta y ocho pruebas pasan, incluidas dos de la interfaz para ejecución continua, pausa y cancelación. La duplicación se comprueba con todas las trescientas sesenta y cuatro palabras ternarias de longitud cero a cinco. También se verifican entradas vacías, borrados, símbolos compuestos y movimientos en ambos sentidos. Las especificaciones con estados inexistentes, símbolos desconocidos o reglas duplicadas se rechazan con un mensaje de error. Una prueba de terminal confirma que la ejecución de ADN guarda cada configuración desde el paso cero hasta el ocho y el resumen final. La evidencia puede regenerarse con pytest y con la herramienta de medición.
+
+Complejidad del motor y de la traza
+El complemento necesita dos transiciones por símbolo: su número de pasos es dos por n y el motor tiene crecimiento lineal. La duplicación realiza recorridos repetidos: su conteo exacto es tres n al cuadrado, más diez n, más cuatro; el motor tiene crecimiento cuadrático. El simulador completo además genera las descripciones instantáneas. Como cada configuración contiene un número lineal de celdas, registrar toda la traza eleva los costos a cuadrático para ADN y cúbico para la duplicación. Las mediciones de la tabla corresponden a ejecuciones reales y coinciden con las fórmulas.
+
+Resultados y entrega
+El proyecto incluye el simulador, las dos definiciones YAML, las pruebas y las trazas de demostración. El informe explica la sintaxis, el símbolo blanco, el manual, el diagrama y el análisis de complejidad. El código se encuentra en el repositorio de GitHub indicado en pantalla. Esta versión del video utiliza voz sintética; para la entrega académica debe incorporarse la participación real de todos los integrantes y publicarse como no listado. Con ello se puede revisar tanto el comportamiento del programa como la organización de su implementación.

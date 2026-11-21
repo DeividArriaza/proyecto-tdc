@@ -1,0 +1,36 @@
+VIDEO DE PRESENTACIÓN
+
+presentacion.mp4: video 1920 x 1080, H.264 y audio AAC, con voz sintética
+española de Guatemala, demostraciones de la aplicación y subtítulos incrustados.
+subtitulos.srt: subtítulos editables para YouTube o un editor de video.
+narracion.txt: guion completo para grabación por los integrantes.
+escenas.json: escenas, imágenes y texto; fuente reproducible de la producción.
+capitulos.json: tiempos de inicio y duración de cada capítulo.
+descripcion_youtube.txt: descripción y capítulos para acompañar la publicación.
+
+La voz sintética no constituye participación personal de los integrantes.
+El enunciado exige participación de todos: cada miembro debe explicar una
+parte del programa con su voz o aparición. El guion y la demostración pueden
+usarse como base, conservando una duración final de siete minutos o menos.
+
+Distribución sugerida si son tres personas:
+Persona 1: capítulos 1 a 3, introducción, YAML y manual.
+Persona 2: capítulos 4 a 6, ejemplos y cancelación.
+Persona 3: capítulos 7 a 10, código, pruebas y complejidad.
+Si son una o dos personas, se redistribuyen los mismos capítulos.
+
+Para regenerar el video en Windows:
+  py -m pip install -r requirements-dev.txt
+  py herramientas/medir.py
+  py herramientas/figuras.py
+  py herramientas/capturar_demo.py
+  py herramientas/crear_video.py
+
+La generación de voz usa el servicio de síntesis de Edge y requiere Internet.
+Las fuentes tipográficas y la captura de ventanas del generador son de Windows.
+El simulador no necesita el generador de video ni sus dependencias.
+
+Al publicar en YouTube seleccione visibilidad NO LISTADO. Copie el enlace a
+youtube_url en entrega.json y regenere el informe con crear_informe.py y
+renderizar_word.py. No se debe inventar un enlace ni señalar que el video está
+publicado sin verificarlo.

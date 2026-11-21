@@ -1,0 +1,63 @@
+{"tipo": "di", "paso": 0, "estado": "qi", "cabezal": 0, "izquierda": 0, "celdas": ["a", "b", "c"]}
+{"tipo": "di", "paso": 1, "estado": "qi", "cabezal": 1, "izquierda": 0, "celdas": ["a", "b", "c"]}
+{"tipo": "di", "paso": 2, "estado": "qi", "cabezal": 2, "izquierda": 0, "celdas": ["a", "b", "c"]}
+{"tipo": "di", "paso": 3, "estado": "qi", "cabezal": 3, "izquierda": 0, "celdas": ["a", "b", "c", "B"]}
+{"tipo": "di", "paso": 4, "estado": "qb0", "cabezal": 3, "izquierda": 0, "celdas": ["a", "b", "c", "#"]}
+{"tipo": "di", "paso": 5, "estado": "qb", "cabezal": 2, "izquierda": 0, "celdas": ["a", "b", "c", "#"]}
+{"tipo": "di", "paso": 6, "estado": "qb", "cabezal": 1, "izquierda": 0, "celdas": ["a", "b", "c", "#"]}
+{"tipo": "di", "paso": 7, "estado": "qb", "cabezal": 0, "izquierda": 0, "celdas": ["a", "b", "c", "#"]}
+{"tipo": "di", "paso": 8, "estado": "qb", "cabezal": -1, "izquierda": -1, "celdas": ["B", "a", "b", "c", "#"]}
+{"tipo": "di", "paso": 9, "estado": "qf", "cabezal": 0, "izquierda": -1, "celdas": ["B", "a", "b", "c", "#"]}
+{"tipo": "di", "paso": 10, "estado": "qa0", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#"]}
+{"tipo": "di", "paso": 11, "estado": "qa", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#"]}
+{"tipo": "di", "paso": 12, "estado": "qa", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#"]}
+{"tipo": "di", "paso": 13, "estado": "qa", "cabezal": 3, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#"]}
+{"tipo": "di", "paso": 14, "estado": "qa", "cabezal": 4, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "B"]}
+{"tipo": "di", "paso": 15, "estado": "qr0", "cabezal": 4, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 16, "estado": "qr", "cabezal": 3, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 17, "estado": "qr", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 18, "estado": "qr", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 19, "estado": "qr", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 20, "estado": "qr", "cabezal": -1, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 21, "estado": "qf", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 22, "estado": "qf", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a"]}
+{"tipo": "di", "paso": 23, "estado": "qc0", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a"]}
+{"tipo": "di", "paso": 24, "estado": "qc", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a"]}
+{"tipo": "di", "paso": 25, "estado": "qc", "cabezal": 3, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a"]}
+{"tipo": "di", "paso": 26, "estado": "qc", "cabezal": 4, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a"]}
+{"tipo": "di", "paso": 27, "estado": "qc", "cabezal": 5, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "B"]}
+{"tipo": "di", "paso": 28, "estado": "qr0", "cabezal": 5, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 29, "estado": "qr", "cabezal": 4, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 30, "estado": "qr", "cabezal": 3, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 31, "estado": "qr", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 32, "estado": "qr", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 33, "estado": "qr", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 34, "estado": "qr", "cabezal": -1, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 35, "estado": "qf", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 36, "estado": "qf", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 37, "estado": "qf", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b"]}
+{"tipo": "di", "paso": 38, "estado": "qe0", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b"]}
+{"tipo": "di", "paso": 39, "estado": "qe", "cabezal": 3, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b"]}
+{"tipo": "di", "paso": 40, "estado": "qe", "cabezal": 4, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b"]}
+{"tipo": "di", "paso": 41, "estado": "qe", "cabezal": 5, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b"]}
+{"tipo": "di", "paso": 42, "estado": "qe", "cabezal": 6, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "B"]}
+{"tipo": "di", "paso": 43, "estado": "qr0", "cabezal": 6, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 44, "estado": "qr", "cabezal": 5, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 45, "estado": "qr", "cabezal": 4, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 46, "estado": "qr", "cabezal": 3, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 47, "estado": "qr", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 48, "estado": "qr", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 49, "estado": "qr", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 50, "estado": "qr", "cabezal": -1, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 51, "estado": "qf", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 52, "estado": "qf", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 53, "estado": "qf", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 54, "estado": "qf", "cabezal": 3, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 55, "estado": "qlim", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "Z", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 56, "estado": "qizq", "cabezal": 2, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 57, "estado": "qlim", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "Y", "c", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 58, "estado": "qizq", "cabezal": 1, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 59, "estado": "qlim", "cabezal": 0, "izquierda": -1, "celdas": ["B", "X", "b", "c", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 60, "estado": "qizq", "cabezal": 0, "izquierda": -1, "celdas": ["B", "a", "b", "c", "#", "a", "b", "c"]}
+{"tipo": "di", "paso": 61, "estado": "qlim", "cabezal": -1, "izquierda": -1, "celdas": ["B", "a", "b", "c", "#", "a", "b", "c"]}
+{"tipo": "resultado", "estado": "qlim", "pasos": 61, "cabezal": -1, "cancelada": false, "detenida": true, "simbolos": ["a", "b", "c", "#", "a", "b", "c"], "texto": "abc#abc"}

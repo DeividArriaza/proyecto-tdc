@@ -1,0 +1,112 @@
+[
+  {
+    "captura": "04_bucle_00",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 0,
+    "cabezal": 0,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_02",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 2,
+    "cabezal": -2,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_04",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 4,
+    "cabezal": -4,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_06",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 6,
+    "cabezal": -6,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_08",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 8,
+    "cabezal": -8,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_10",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 10,
+    "cabezal": -10,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_12",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 12,
+    "cabezal": -12,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_14",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 14,
+    "cabezal": -14,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_16",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 16,
+    "cabezal": -16,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  },
+  {
+    "captura": "04_bucle_cancelado",
+    "tipo": "resultado",
+    "estado": "q",
+    "pasos": 16,
+    "cabezal": -16,
+    "cancelada": true,
+    "detenida": false,
+    "simbolos": [],
+    "texto": ""
+  }
+]

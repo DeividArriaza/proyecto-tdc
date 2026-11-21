@@ -1,0 +1,18 @@
+{"tipo": "di", "paso": 0, "estado": "q", "cabezal": 0, "izquierda": 0, "celdas": ["B"]}
+{"tipo": "di", "paso": 1, "estado": "q", "cabezal": -1, "izquierda": -1, "celdas": ["B", "B"]}
+{"tipo": "di", "paso": 2, "estado": "q", "cabezal": -2, "izquierda": -2, "celdas": ["B", "B", "B"]}
+{"tipo": "di", "paso": 3, "estado": "q", "cabezal": -3, "izquierda": -3, "celdas": ["B", "B", "B", "B"]}
+{"tipo": "di", "paso": 4, "estado": "q", "cabezal": -4, "izquierda": -4, "celdas": ["B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 5, "estado": "q", "cabezal": -5, "izquierda": -5, "celdas": ["B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 6, "estado": "q", "cabezal": -6, "izquierda": -6, "celdas": ["B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 7, "estado": "q", "cabezal": -7, "izquierda": -7, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 8, "estado": "q", "cabezal": -8, "izquierda": -8, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 9, "estado": "q", "cabezal": -9, "izquierda": -9, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 10, "estado": "q", "cabezal": -10, "izquierda": -10, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 11, "estado": "q", "cabezal": -11, "izquierda": -11, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 12, "estado": "q", "cabezal": -12, "izquierda": -12, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 13, "estado": "q", "cabezal": -13, "izquierda": -13, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 14, "estado": "q", "cabezal": -14, "izquierda": -14, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 15, "estado": "q", "cabezal": -15, "izquierda": -15, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "di", "paso": 16, "estado": "q", "cabezal": -16, "izquierda": -16, "celdas": ["B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B", "B"]}
+{"tipo": "resultado", "estado": "q", "pasos": 16, "cabezal": -16, "cancelada": true, "detenida": false, "simbolos": [], "texto": ""}

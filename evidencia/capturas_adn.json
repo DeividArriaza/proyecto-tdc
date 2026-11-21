@@ -1,0 +1,146 @@
+[
+  {
+    "captura": "02_adn_paso_00",
+    "tipo": "resultado",
+    "estado": "q0",
+    "pasos": 0,
+    "cabezal": 0,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "A",
+      "C",
+      "G",
+      "T"
+    ],
+    "texto": "ACGT"
+  },
+  {
+    "captura": "02_adn_paso_01",
+    "tipo": "resultado",
+    "estado": "qm",
+    "pasos": 1,
+    "cabezal": 0,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "T",
+      "C",
+      "G",
+      "T"
+    ],
+    "texto": "TCGT"
+  },
+  {
+    "captura": "02_adn_paso_02",
+    "tipo": "resultado",
+    "estado": "q0",
+    "pasos": 2,
+    "cabezal": 1,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "T",
+      "C",
+      "G",
+      "T"
+    ],
+    "texto": "TCGT"
+  },
+  {
+    "captura": "02_adn_paso_03",
+    "tipo": "resultado",
+    "estado": "qm",
+    "pasos": 3,
+    "cabezal": 1,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "T",
+      "G",
+      "G",
+      "T"
+    ],
+    "texto": "TGGT"
+  },
+  {
+    "captura": "02_adn_paso_04",
+    "tipo": "resultado",
+    "estado": "q0",
+    "pasos": 4,
+    "cabezal": 2,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "T",
+      "G",
+      "G",
+      "T"
+    ],
+    "texto": "TGGT"
+  },
+  {
+    "captura": "02_adn_paso_05",
+    "tipo": "resultado",
+    "estado": "qm",
+    "pasos": 5,
+    "cabezal": 2,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "T",
+      "G",
+      "C",
+      "T"
+    ],
+    "texto": "TGCT"
+  },
+  {
+    "captura": "02_adn_paso_06",
+    "tipo": "resultado",
+    "estado": "q0",
+    "pasos": 6,
+    "cabezal": 3,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "T",
+      "G",
+      "C",
+      "T"
+    ],
+    "texto": "TGCT"
+  },
+  {
+    "captura": "02_adn_paso_07",
+    "tipo": "resultado",
+    "estado": "qm",
+    "pasos": 7,
+    "cabezal": 3,
+    "cancelada": false,
+    "detenida": false,
+    "simbolos": [
+      "T",
+      "G",
+      "C",
+      "A"
+    ],
+    "texto": "TGCA"
+  },
+  {
+    "captura": "02_adn_paso_08",
+    "tipo": "resultado",
+    "estado": "q0",
+    "pasos": 8,
+    "cabezal": 4,
+    "cancelada": false,
+    "detenida": true,
+    "simbolos": [
+      "T",
+      "G",
+      "C",
+      "A"
+    ],
+    "texto": "TGCA"
+  }
+]

@@ -1,0 +1,69 @@
+# Dominio del algoritmo: w en {a,b,c}*. Salida: w#w.
+# X,Y,Z marcan los símbolos de la palabra original que ya fueron copiados.
+mt:
+  nombre: Duplicación de una palabra ternaria con separador
+  estados: [qi, qb0, qb, qf, qa0, qa, qc0, qc, qe0, qe, qr0, qr, qlim, qizq]
+  alfabeto: [a, b, c, X, Y, Z, '#', B]
+  blanco: B
+  estado_inicial: qi
+  transiciones:
+    - qi a R qi
+    - qi b R qi
+    - qi c R qi
+    - qi B W:# qb0
+    - [qb0, '#', L, qb]
+    - qb a L qb
+    - qb b L qb
+    - qb c L qb
+    - qb B R qf
+    - qf X R qf
+    - qf Y R qf
+    - qf Z R qf
+    - qf a X qa0
+    - qf b Y qc0
+    - qf c Z qe0
+    - qa0 X R qa
+    - qc0 Y R qc
+    - qe0 Z R qe
+    - qa a R qa
+    - qa b R qa
+    - qa c R qa
+    - qa X R qa
+    - qa Y R qa
+    - qa Z R qa
+    - [qa, '#', R, qa]
+    - qa B a qr0
+    - qc a R qc
+    - qc b R qc
+    - qc c R qc
+    - qc X R qc
+    - qc Y R qc
+    - qc Z R qc
+    - [qc, '#', R, qc]
+    - qc B b qr0
+    - qe a R qe
+    - qe b R qe
+    - qe c R qe
+    - qe X R qe
+    - qe Y R qe
+    - qe Z R qe
+    - [qe, '#', R, qe]
+    - qe B c qr0
+    - qr0 a L qr
+    - qr0 b L qr
+    - qr0 c L qr
+    - qr a L qr
+    - qr b L qr
+    - qr c L qr
+    - qr X L qr
+    - qr Y L qr
+    - qr Z L qr
+    - [qr, '#', L, qr]
+    - qr B R qf
+    - [qf, '#', L, qlim]
+    - qlim X a qizq
+    - qlim Y b qizq
+    - qlim Z c qizq
+    - qizq a L qlim
+    - qizq b L qlim
+    - qizq c L qlim

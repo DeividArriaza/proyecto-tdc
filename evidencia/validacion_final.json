@@ -1,0 +1,54 @@
+{
+  "pruebas_locales": {
+    "total": 38,
+    "fallos": 0,
+    "omitidas": 0
+  },
+  "informe_paginas": 16,
+  "video": {
+    "duracion_segundos": 342.71,
+    "resolucion": "1920x1080",
+    "video": "H.264",
+    "audio": "AAC",
+    "volumen_medio_db": -23.1,
+    "decodificacion_completa": "correcta",
+    "narracion": "sintética es-GT-AndresNeural"
+  },
+  "trazas": {
+    "adn_ACGT.jsonl": {
+      "descripciones": 9,
+      "pasos": 8,
+      "resultado": "TGCA"
+    },
+    "duplicacion_abc.jsonl": {
+      "descripciones": 62,
+      "pasos": 61,
+      "resultado": "abc#abc"
+    }
+  },
+  "archivos": {
+    "output/Informe_Proyecto_3.docx": {
+      "bytes": 189548,
+      "sha256": "4ea325b3625bd3e74d0f3fd9266768e936f65e43bdbce73f2a3d1499ec129b44"
+    },
+    "output/Informe_Proyecto_3.pdf": {
+      "bytes": 620901,
+      "sha256": "5175c1b669ac16ee909a4e7f95df3fd41d3a8b33a9ba9ad51dbb17d77ef0217f"
+    },
+    "video/presentacion.mp4": {
+      "bytes": 10358004,
+      "sha256": "d5bc95f90830cd63c5f6d93ba560131c24bd65d1dd5fe53afd714f2be2a4c274"
+    },
+    "video/subtitulos.srt": {
+      "bytes": 8359,
+      "sha256": "e50f1ddd1c0b4ecf346cb512b4d7b3e0e6cb53075442017b19999b83af036905"
+    }
+  },
+  "pendientes_externos": [
+    "integrantes y carnés",
+    "disponibilidad y registro de ejemplos",
+    "participación real de integrantes en video",
+    "publicación no listada de YouTube y enlace",
+    "registro del grupo en Canvas"
+  ]
+}

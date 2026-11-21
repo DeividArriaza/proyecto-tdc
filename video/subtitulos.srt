@@ -1,0 +1,295 @@
+1
+00:00:00,100 --> 00:00:05,581
+Este video presenta el simulador de máquinas de Turing del proyecto tres de Teoría de la Computación.
+
+2
+00:00:05,531 --> 00:00:12,999
+El programa recibe una definición en YAML y una entrada, ejecuta sus cuádruplas y conserva todas las descripciones instantáneas.
+
+3
+00:00:12,999 --> 00:00:16,538
+La cinta se extiende hacia la izquierda y hacia la derecha.
+
+4
+00:00:16,538 --> 00:00:21,679
+Mostraremos dos algoritmos, la cancelación de un bucle y la organización del código.
+
+5
+00:00:21,679 --> 00:00:25,329
+Las imágenes de ejecución corresponden a la aplicación real.
+
+6
+00:00:25,329 --> 00:00:28,145
+La narración de esta versión es sintética.
+
+7
+00:00:28,900 --> 00:00:34,537
+El archivo YAML declara los estados, el alfabeto, el estado inicial y las transiciones.
+
+8
+00:00:34,487 --> 00:00:37,458
+El blanco de nuestros ejemplos es la letra B.
+
+9
+00:00:37,458 --> 00:00:43,145
+Cada cuádrupla contiene el estado actual, el símbolo leído, la operación y el estado siguiente.
+
+10
+00:00:43,145 --> 00:00:46,562
+La letra R mueve a la derecha y L a la izquierda.
+
+11
+00:00:46,562 --> 00:00:49,789
+Una escritura cambia la celda sin mover el cabezal.
+
+12
+00:00:49,789 --> 00:00:52,861
+Por eso escribir y avanzar consume dos pasos.
+
+13
+00:00:52,861 --> 00:00:59,071
+El prefijo W seguido de dos puntos permite escribir símbolos reservados, como la propia letra R.
+
+14
+00:00:59,071 --> 00:01:02,688
+La máquina se detiene cuando no hay una transición aplicable.
+
+15
+00:01:03,440 --> 00:01:07,964
+Para utilizar la interfaz abrimos un archivo YAML o seleccionamos un ejemplo.
+
+16
+00:01:07,914 --> 00:01:10,852
+Escribimos la entrada y pulsamos preparar.
+
+17
+00:01:10,852 --> 00:01:14,591
+Esto inicializa la cinta y registra la configuración cero.
+
+18
+00:01:14,591 --> 00:01:18,164
+Podemos avanzar con un paso o ejecutar continuamente.
+
+19
+00:01:18,164 --> 00:01:22,370
+La celda coloreada señala el cabezal y debajo aparecen los índices.
+
+20
+00:01:22,370 --> 00:01:29,671
+La ventana muestra las últimas doscientas configuraciones, mientras el archivo en disco conserva todas las descripciones completas.
+
+21
+00:01:29,671 --> 00:01:33,277
+El botón exportar traza permite guardarlas como JSONL.
+
+22
+00:01:33,277 --> 00:01:36,771
+Para iniciar otra entrada, se vuelve a pulsar preparar.
+
+23
+00:01:37,520 --> 00:01:41,577
+La primera máquina calcula el complemento de una secuencia de ADN.
+
+24
+00:01:41,527 --> 00:01:44,732
+La entrada es A, C, G, T.
+
+25
+00:01:44,732 --> 00:01:49,039
+En el primer paso se escribe T sobre A y el cabezal permanece en cero.
+
+26
+00:01:49,039 --> 00:01:51,743
+En el siguiente paso avanza a la derecha.
+
+27
+00:01:51,743 --> 00:01:55,827
+El mismo proceso transforma C en G, G en C y T en A.
+
+28
+00:01:55,827 --> 00:01:59,366
+Al llegar al blanco derecho, no existe otra regla.
+
+29
+00:01:59,366 --> 00:02:04,675
+La ejecución termina en ocho transiciones y muestra la salida T, G, C, A.
+
+30
+00:02:04,675 --> 00:02:10,562
+También se acepta la entrada vacía: no se aplica ninguna transición y el resultado permanece vacío.
+
+31
+00:02:11,310 --> 00:02:15,166
+La segunda máquina duplica una palabra sobre a, b y c.
+
+32
+00:02:15,116 --> 00:02:18,722
+Primero recorre la entrada y coloca un separador al final.
+
+33
+00:02:18,722 --> 00:02:23,207
+Después marca el siguiente símbolo original con X, Y o Z.
+
+34
+00:02:23,207 --> 00:02:28,048
+El estado recuerda qué símbolo debe copiar, llega hasta el blanco derecho y lo escribe.
+
+35
+00:02:28,048 --> 00:02:31,420
+Luego regresa al principio para repetir el recorrido.
+
+36
+00:02:31,420 --> 00:02:37,385
+Aquí se muestran estados seleccionados de la ejecución; la traza conserva todos los pasos intermedios.
+
+37
+00:02:37,385 --> 00:02:41,948
+Cuando todos los símbolos están copiados, la máquina restaura las marcas.
+
+38
+00:02:41,948 --> 00:02:49,360
+La entrada a, b, c produce a, b, c, separador, a, b, c, en sesenta y un pasos.
+
+39
+00:02:50,120 --> 00:02:56,503
+El ejemplo auxiliar tiene una sola regla: sobre blanco, mueve a la izquierda y permanece en el mismo estado.
+
+40
+00:02:56,453 --> 00:03:01,026
+La máquina visita índices negativos y nunca encuentra una condición de parada.
+
+41
+00:03:01,026 --> 00:03:04,098
+El simulador no impone un máximo de pasos.
+
+42
+00:03:04,098 --> 00:03:09,351
+Al cancelar después de dieciséis transiciones, el cabezal queda en menos dieciséis.
+
+43
+00:03:09,351 --> 00:03:14,014
+El programa informa que la ejecución fue cancelada y muestra contenido parcial.
+
+44
+00:03:14,014 --> 00:03:16,729
+Esto se distingue de una parada normal.
+
+45
+00:03:16,729 --> 00:03:21,682
+La opción de pausa, en cambio, permite continuar desde la configuración actual.
+
+46
+00:03:22,420 --> 00:03:25,731
+El repositorio separa cuatro responsabilidades.
+
+47
+00:03:25,681 --> 00:03:29,387
+Modelo lee YAML y valida la definición antes de ejecutar.
+
+48
+00:03:29,387 --> 00:03:34,072
+Motor contiene la simulación: estado, cabezal, contador y cinta.
+
+49
+00:03:34,072 --> 00:03:39,670
+La cinta es un diccionario con índices enteros, donde solo se almacenan símbolos no blancos.
+
+50
+00:03:39,670 --> 00:03:44,010
+Interfaz implementa los controles de escritorio y el registro en disco.
+
+51
+00:03:44,010 --> 00:03:48,161
+Main permite ejecutar desde la terminal o abrir la interfaz gráfica.
+
+52
+00:03:48,161 --> 00:03:51,667
+Las máquinas están en ejemplos y las pruebas en tests.
+
+53
+00:03:51,667 --> 00:03:56,007
+Esta separación permite verificar el motor sin depender de una ventana.
+
+54
+00:03:56,760 --> 00:04:03,176
+Las treinta y ocho pruebas pasan, incluidas dos de la interfaz para ejecución continua, pausa y cancelación.
+
+55
+00:04:03,126 --> 00:04:09,258
+La duplicación se comprueba con todas las trescientas sesenta y cuatro palabras ternarias de longitud cero a cinco.
+
+56
+00:04:09,258 --> 00:04:15,390
+También se verifican entradas vacías, borrados, símbolos compuestos y movimientos en ambos sentidos.
+
+57
+00:04:15,390 --> 00:04:22,624
+Las especificaciones con estados inexistentes, símbolos desconocidos o reglas duplicadas se rechazan con un mensaje de error.
+
+58
+00:04:22,624 --> 00:04:28,403
+Una prueba de terminal confirma que la ejecución de ADN guarda cada configuración desde el paso cero hasta el
+
+59
+00:04:28,403 --> 00:04:29,924
+ocho y el resumen final.
+
+60
+00:04:29,924 --> 00:04:34,276
+La evidencia puede regenerarse con pytest y con la herramienta de medición.
+
+61
+00:04:35,040 --> 00:04:41,489
+El complemento necesita dos transiciones por símbolo: su número de pasos es dos por n y el motor tiene
+
+62
+00:04:41,489 --> 00:04:42,168
+crecimiento lineal.
+
+63
+00:04:42,118 --> 00:04:49,675
+La duplicación realiza recorridos repetidos: su conteo exacto es tres n al cuadrado, más diez n, más cuatro; el
+
+64
+00:04:49,675 --> 00:04:51,266
+motor tiene crecimiento cuadrático.
+
+65
+00:04:51,266 --> 00:04:55,439
+El simulador completo además genera las descripciones instantáneas.
+
+66
+00:04:55,439 --> 00:05:02,147
+Como cada configuración contiene un número lineal de celdas, registrar toda la traza eleva los costos a cuadrático para
+
+67
+00:05:02,147 --> 00:05:04,265
+ADN y cúbico para la duplicación.
+
+68
+00:05:04,265 --> 00:05:09,417
+Las mediciones de la tabla corresponden a ejecuciones reales y coinciden con las fórmulas.
+
+69
+00:05:10,180 --> 00:05:16,229
+El proyecto incluye el simulador, las dos definiciones YAML, las pruebas y las trazas de demostración.
+
+70
+00:05:16,179 --> 00:05:23,045
+El informe explica la sintaxis, el símbolo blanco, el manual, el diagrama y el análisis de complejidad.
+
+71
+00:05:23,045 --> 00:05:27,241
+El código se encuentra en el repositorio de GitHub indicado en pantalla.
+
+72
+00:05:27,241 --> 00:05:34,269
+Esta versión del video utiliza voz sintética; para la entrega académica debe incorporarse la participación real de todos los
+
+73
+00:05:34,269 --> 00:05:36,489
+integrantes y publicarse como no listado.
+
+74
+00:05:36,489 --> 00:05:42,009
+Con ello se puede revisar tanto el comportamiento del programa como la organización de su implementación.
